@@ -7,7 +7,7 @@ const mongoose = require("mongoose")
 const bodyParser = require('body-parser');
 
 
-const uri = "mongodb+srv://satyammishra2:satyammishra@cluster0.x3tlj.mongodb.net/OurLogistics?retryWrites=true&w=majority";
+
 mongoose.connect(uri, {
         useNewUrlParser: true,
         useUnifiedTopology: true
